@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    
+    <class name="vo.authorVO" table="author">
+        
+        <id name="authorID" type="long" column="AuthorID">
+        <generator class="increment"/>
+        </id>
+     
+        <property name="authorName">
+        <column name="AuthorName"/>
+        </property>
+            
+    </class>
+    
+</hibernate-mapping>
+

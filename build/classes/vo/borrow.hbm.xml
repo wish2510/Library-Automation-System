@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  
+ <class name="vo.borrowVO" table="borrow">
+  
+  <id name="borrowID" type="long" column="BorrowID" >
+   <generator class="increment"/>
+  </id>
+
+	<property name="bookID">
+  <column name="BookID"/>
+  </property>
+  
+  <property name="readerID">
+  <column name="ReaderID"/>
+  </property>
+  
+  <property name="branchID">
+  <column name="BranchID"/>
+  </property>
+  
+  <property name="bDateTime">
+  <column name="BDateTime"/>
+  </property>
+  
+  <property name="rDateTime">
+  <column name="RDateTime"/>
+  </property>
+
+  <property name="fine">
+  <column name="Fine"/>
+  </property>
+	  
+ </class>
+</hibernate-mapping>
+

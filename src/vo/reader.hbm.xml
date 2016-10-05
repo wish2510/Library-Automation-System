@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    
+    <class name="vo.readerVO" table="reader">
+        
+        <id name="readerID" type="long" column="ReaderID">
+        <generator class="increment"/>
+        </id>
+        
+        <property name="readerName">
+        <column name="ReaderName"/>
+        </property>
+        
+        <property name="address">
+        <column name="Address"/>
+        </property>
+        
+        <property name="phone">
+        <column name="Phone"/>
+        </property>
+       
+    </class>
+        
+    
+</hibernate-mapping>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>    
+    <class name="vo.reserveVO" table="reserve">
+        
+        <id name="reserveID" type="long" column="ReserveID">
+        <generator class="increment"/>
+        </id>
+        
+        <property name="bookID">
+        <column name="BookID"/>
+        </property>
+        
+        <property name="readerID">
+        <column name="ReaderID"/>
+        </property>
+        
+        <property name="reserveDate">
+        <column name="ReserveDate"/>
+        </property>
+        
+        <property name="branchID">
+        <column name="BranchID"/>
+        </property>
+        
+    </class>
+</hibernate-mapping>
+

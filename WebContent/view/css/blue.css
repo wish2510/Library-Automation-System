@@ -1,0 +1,193 @@
+
+#header #header-inner {
+    background: #b0b0b0 url("../images/header_inner.png") repeat-x scroll 0 0;
+}
+#header #header-inner #home a {
+    background: rgba(0, 0, 0, 0) url("../images/button_home.png") repeat scroll 0 0;
+}
+#header #header-inner #quick li a {
+    background: #336699 url("../images/quick_l.png") no-repeat scroll left top;
+}
+#header #header-inner #quick li span {
+    background: rgba(0, 0, 0, 0) url("../images/quick_r.png") no-repeat scroll right top;
+    border-left: 1px solid #3f6f9f;
+}
+#header #header-inner #quick li span.icon {
+    background: rgba(0, 0, 0, 0) url("../images/quick_l.png") no-repeat scroll left top;
+    border-right: 1px solid #2e5c89;
+}
+#header #header-inner #quick li a:hover {
+    background: #4e4e4e url("../images/quick_l_selected.png") no-repeat scroll left top;
+}
+#header #header-inner #quick li a:hover span {
+    background: rgba(0, 0, 0, 0) url("../images/quick_r_selected.png") no-repeat scroll right top;
+}
+#header #header-inner #quick li a:hover span.icon {
+    background: rgba(0, 0, 0, 0) url("../images/quick_l_selected.png") no-repeat scroll left top;
+}
+#header #header-inner div.corner {
+    background: rgba(0, 0, 0, 0) url("../images/header_inner_corners.png") no-repeat scroll 0 0;
+}
+#header #header-inner div.tl {
+    background-position: 0 0;
+    left: 0;
+    top: 0;
+}
+#header #header-inner div.tr {
+    background-position: -6px 0;
+    right: 0;
+    top: 0;
+}
+#content #left #menu h6.selected {
+    background: #00376e url("../images/menu_selected.png") repeat-x scroll 0 0;
+}
+#content #left #menu h6.selected a {
+    background: rgba(0, 0, 0, 0) url("../images/menu_l_selected.png") no-repeat scroll left top;
+}
+#content #left #menu h6.selected span {
+    background: rgba(0, 0, 0, 0) url("../images/menu_r_selected.png") no-repeat scroll right top;
+}
+#content #left #menu ul {
+    background: #376ea6 none repeat scroll 0 0;
+}
+#content #left #menu li {
+    border-bottom: 1px solid #326395;
+    border-top: 1px solid #4377ab;
+}
+#content #left #menu li a:hover {
+    color: #b9dcff;
+}
+#content #left #menu li.selected {
+    background: #326395 none repeat scroll 0 0;
+    border-top: medium none;
+}
+#content #left #menu li.selected a {
+    color: #b9dcff;
+}
+#content #left #menu li.collapsible {
+    background: rgba(0, 0, 0, 0) url("../images/menu_border.png") no-repeat scroll left top;
+}
+#content #left #menu li.collapsible a.minus {
+    border-bottom: 1px solid #326395;
+}
+#content #left #menu li ul {
+    border-left: 18px solid #326395;
+}
+#content #left #menu li ul li {
+    border-bottom: 1px solid #326395;
+    border-top: 1px solid #4377ab;
+}
+#content div.box div.title {
+    background: #336699 url("../images/title.png") repeat-x scroll 0 0;
+}
+#content div.box div.title ul.links li a {
+    background: rgba(0, 0, 0, 0) url("../images/blue/title_link.png") no-repeat scroll left top;
+    border-left: 1px solid #316293;
+}
+#content div.box div.title ul.links li a:hover {
+    background: rgba(0, 0, 0, 0) url("../images/title_tab_selected.png") no-repeat scroll center bottom;
+    color: #bfe3ff;
+}
+#content div.box div.title ul.links li.ui-tabs-selected a {
+    background: rgba(0, 0, 0, 0) url("../images/title_tab_selected.png") no-repeat scroll center bottom;
+    color: #bfe3ff;
+}
+#content div.box div.title div.search {
+    background: rgba(0, 0, 0, 0) url("../images/title_link.png") no-repeat scroll left top;
+    border-left: 1px solid #316293;
+}
+#content div.box div.title div.search div.input input {
+    border: 1px solid #316293;
+}
+#content div.box div.title div.search div.button input.ui-state-default {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #4e85bb url("../images/button_highlight.png") repeat-x scroll 0 0;
+    border-color: #316293 #316293 #316293 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #ffffff;
+}
+#content div.box div.title div.search div.button input.ui-state-hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #46a0c1 url("../images/button_highlight_selected.png") repeat-x scroll 0 0;
+    border-color: #316293 #316293 #316293 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #ffffff;
+}
+#content div.box div.form div.fields div.field div.highlight .ui-state-default {
+    background: #4e85bb url("../images/button_highlight.png") repeat-x scroll 0 0;
+    border-color: #5c91a4 #2b7089 #1a6480 #2a6f89;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+}
+#content div.box div.form div.fields div.field div.highlight .ui-state-hover {
+    background: #46a0c1 url("../images/button_highlight_selected.png") repeat-x scroll 0 0;
+    border-color: #78acbf #35829f #257897 #34819e;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+}
+#content div.box div.form div.fields div.buttons div.highlight input.ui-state-default {
+    background: #4e85bb url("../images/button_highlight.png") repeat-x scroll 0 0;
+    border-color: #5c91a4 #2b7089 #1a6480 #2a6f89;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+}
+#content div.box div.form div.fields div.buttons div.highlight input.ui-state-hover {
+    background: #46a0c1 url("../images/button_highlight_selected.png") repeat-x scroll 0 0;
+    border-color: #78acbf #35829f #257897 #34819e;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+}
+#login div.title {
+    background: #003367 url("../images/header_inner.png") repeat-x scroll 0 0;
+}
+#login div.title div.corner {
+    background: rgba(0, 0, 0, 0) url("../images/login_corners.png") no-repeat scroll 0 0;
+}
+#login div.title div.tl {
+    background-position: 0 0;
+    left: 0;
+    top: 0;
+}
+#login div.title div.tr {
+    background-position: -6px 0;
+    right: 0;
+    top: 0;
+}
+.ui-selectmenu-open li.ui-selectmenu-item-focus {
+    background: #376ea6 none repeat scroll 0 0;
+}
+.ui-selectmenu-open li.ui-selectmenu-item-focus a {
+    color: #ffffff;
+}
+.ui-datepicker td span, .ui-datepicker td a:hover {
+    background: #376ea6 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.ui-datepicker td span, .ui-datepicker td.ui-datepicker-current-day a {
+    background: #376ea6 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.ui-autocomplete .ui-menu-item a:hover {
+    background: #376ea6 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.ui-dialog {
+    border: 1px solid #336699;
+}
+.ui-dialog .ui-dialog-titlebar {
+    background: #336699 url("../images/title.png") repeat-x scroll 0 0;
+}

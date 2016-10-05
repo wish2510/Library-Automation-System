@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Admin New Reader</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<!-- stylesheets -->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+		<link id="color" rel="stylesheet" type="text/css" href="../css/colors/blue.css" />
+		<!-- scripts (jquery) -->
+		<script src="../js/jquery-1.6.4.min.js" type="text/javascript"></script>
+		<!--[if IE]><script language="javascript" type="text/javascript" src="resources/scripts/excanvas.min.js"></script><![endif]-->
+		<script src="../js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+		<script src="../js/jquery.ui.selectmenu.js" type="text/javascript"></script>
+		<script src="../js/jquery.flot.min.js" type="text/javascript"></script>
+		<script src="../js/tiny_mce.js" type="text/javascript"></script>
+		<script src="../js/jquery.tinymce.js" type="text/javascript"></script>
+		<!-- scripts (custom) -->
+		<script src="../js/smooth.js" type="text/javascript"></script>
+		<script src="../js/smooth.menu.js" type="text/javascript"></script>
+		<script src="../js/smooth.chart.js" type="text/javascript"></script>
+		<script src="../js/smooth.table.js" type="text/javascript"></script>
+		<script src="../js/smooth.form.js" type="text/javascript"></script>
+		<script src="../js/smooth.dialog.js" type="text/javascript"></script>
+		<script src="../js/smooth.autocomplete.js" type="text/javascript"></script>
+	</head>
+	<body>
+
+		<div id="header">
+			<!-- logo -->
+			<div id="logo">
+				<h1>Library Automation System</h1>
+			</div>
+			<!-- end logo -->
+			<!-- user -->
+			<ul id="user">
+				<li class="first"><a href="">Hello (Name of Reader)</a></li>
+				<li><a href="">Logout</a></li>
+			</ul>
+			<!-- end user -->
+			<div id="header-inner">
+				<div id="home">
+					<a href="" title="Home"></a>
+				</div>
+				<!-- quick -->
+				<ul id="quick">
+	<!--				<li>
+						<a href="#" title="Products"><span class="normal">Examples</span></a>
+						<ul>
+							<li><a href="index.html">Full, Column</a></li>
+							<li><a href="index-no-column.html">Full, No Column</a></li>
+							<li><a href="index-fixed.html">Fixed, Column</a></li>
+							<li class="last"><a href="index-fixed-no-column.html">Fixed, No Column</a></li>
+						</ul>
+	-->
+					</li>
+					<li>
+						<a href="#" title=""><span class="icon"><img src="../images/application_double.png" alt="Add" /></span><span>Add</span></a>
+						<ul>
+							<li><a href="#">New Reader</a></li>
+						<!--	<li><a href="#">Book</a></li> -->
+							<li>
+								<a href="#" class="childs">Book</a>
+								<ul>
+									<li><a href="">Existing</a></li>
+									<li><a href="">new</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="" title="Events"><span class="icon"><img src="../images/cog.png" alt="Branch Info" /></span><span>Branch Info</span></a>
+						
+					</li>
+					<li>
+						<a href="" title="Pages"><span class="icon"><img src="../images/page_white_copy.png" alt="Frequent Borrower" /></span><span>Frequent Borrower</span></a>
+						
+					</li>
+					<li>
+						<a href="" title="Links"><span class="icon"><img src="../images/application_double.png" alt="Most borrowed book" /></span><span>Most borrowed book</span></a>
+					</li>
+					<li>
+						<a href="" title="Settings"><span class="icon"><img src="../images/cog.png" alt="Average Fine" /></span><span>Average Fine</span></a>
+						
+					</li>
+				</ul>
+				<!-- end quick -->
+				<div class="corner tl"></div>
+				<div class="corner tr"></div>
+			</div>
+		</div>
+		<!-- end header -->
+		<!-- content -->
+		<div id="content">
+			<!-- end content / left -->
+			<!-- content -->
+		<div id="content">
+			<!-- end content / left -->
+			<div id="left">
+				<div id="menu">
+					<h6 id="h-menu-products" class="selected"><a href="#products"><span>Add</span></a></h6>
+					<ul id="menu-products" class="opened">
+						
+						<li class="selected"><a href="">New Reader</a></li>
+						<li class="collapsible">
+							<a href="#" class="collapsible plus">Book</a>
+							<ul id="whatever" class="collapsed">
+								<li><a href="">Existing</a></li>
+								<li><a href="">New</a></li>
+			
+							</ul>
+						</li>
+					</ul>
+					<h6 id="h-menu-pages"><a href="#pages"><span>Branch Info</span></a></h6>
+					<ul id="menu-pages" class="closed">
+						
+					</ul>
+					<h6 id="h-menu-events"><a href="#events"><span>Frequent Borrower</span></a></h6>
+					
+					<h6 id="h-menu-links"><a href="#links"><span>Most borrowed book</span></a></h6>
+					
+					<h6 id="h-menu-settings"><a href="#settings"><span>Average Fine</span></a></h6>
+					
+				</div>
+				
+			</div>
+			<!-- end content / left -->
+			<!-- content / right -->
+			<div id="right">
+				<!-- forms -->
+				<div class="box">
+					<!-- box / title -->
+					<div class="title">
+						<h5>Add New Reader</h5>
+					</div>
+					<!-- end box / title -->
+					<form id="form" action="" method="post">
+					<div class="form">
+						<div class="fields">
+							<div class="field  field-first">
+								<div class="label">
+									<label for="input-small">Name:</label>
+								</div>
+								<div class="input">
+									<input type="text" id="input-small" name="input.small" class="small" />
+									
+								</div>
+							</div>
+							<div class="field">
+								<div class="label">
+									<label for="input-medium">Address:</label>
+								</div>	
+								<div class="input">
+									<input type="text" id="input-medium" name="input.medium" class="medium" />
+								</div>
+							</div>
+							<div class="field">
+								<div class="label">
+									<label for="input-large">Phone Number:</label>
+								</div>
+								<div class="input">
+									<input type="text" id="input-large" name="input.large" class="large" />
+								</div>
+							</div>
+							<!-- <div class="field">
+								<div class="label">
+									<label for="autocomplete">Auto Complete:</label>
+								</div>
+								<div class="input">
+									<input type="text" id="autocomplete" name="input.autocomplete" value="start typing for example: java" class="small focus autocomplete" />
+								</div>
+							</div>
+							<div class="field">
+								<div class="label">
+									<label for="date">Date Picker:</label>
+								</div>
+								<div class="input">
+									<input type="text" id="date" name="input.date" class="date" />
+								</div>
+							</div>
+							<div class="field">
+								<div class="label">
+									<label for="input-error">Error Input:</label>
+								</div>
+								<div class="input">
+									<input type="text" id="input-error" name="input.error" class="small error" />
+									<span class="error">This is a required field.</span>
+								</div>
+							</div>
+							<div class="field">
+								<div class="label">
+									<label for="input-valid">Valid Input:</label>
+								</div>
+								<div class="input">
+									<input type="text" id="input-valid" name="input.valid" class="small valid" />
+								</div>
+							</div>
+							<div class="field">
+								<div class="label">
+									<label for="select">Select:</label>
+								</div>
+								<div class="select">
+									<select id="select" name="select">
+										<option value="1">Option #1</option>
+										<option value="2">Option #2</option>
+										<option value="3">Option #3</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<div class="label label-checkbox">
+									<label>Checkboxes:</label>
+								</div>
+								<div class="checkboxes">
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox-1" name="checkboxex" />
+										<label for="checkbox-1">Option #1</label>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox-2" name="checkboxex" />
+										<label for="checkbox-2">Option #2</label>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" id="checkbox-3" name="checkboxex" />
+										<label for="checkbox-3">Option #3</label>
+									</div>
+								</div>
+							</div>
+							<div class="field">
+								<div class="label label-radio">
+									<label>Radios:</label>
+								</div>
+								<div class="radios">
+									<div class="radio">
+										<input type="radio" id="radio-1" name="radioex" />
+										<label for="radio-1">Option #1</label>
+									</div>
+									<div class="radio">
+										<input type="radio" id="radio-2" name="radioex" />
+										<label for="radio-2">Option #2</label>
+									</div>
+									<div class="radio">
+										<input type="radio" id="radio-3" name="radioex" />
+										<label for="radio-3">Option #3</label>
+									</div>
+								</div>
+							</div>
+							<div class="field">
+								<div class="label">
+									<label for="file">File:</label>
+								</div>
+								<div class="input input-file">
+									<input type="file" id="file" name="file" size="40" />
+								</div>
+							</div>
+							<div class="field">
+								<div class="label label-textarea">
+									<label for="textarea">Textarea:</label>
+								</div>
+								<div class="textarea textarea-editor">
+									<textarea id="textarea" name="textarea" cols="50" rows="12" class="editor"></textarea>
+								</div>
+							</div> -->
+							<div class="buttons">
+								<input type="submit" name="submit" value="Submit" />
+								<input type="reset" name="reset" value="Reset" />
+							</div> 
+						</div>
+					</div>
+					</form>
+				</div>
+				<!-- end forms -->
+				
+			</div>
+			<!-- end content / right -->
+		</div>
+		<!-- end content -->
+		
+	</body>
+</html>

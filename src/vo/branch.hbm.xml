@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  
+ <class name="vo.branchVO" table="branch">
+  
+  <id name="branchID" type="long" column="BranchID" >
+   <generator class="increment"/>
+  </id>
+
+	<property name="branchName">
+  <column name="BranchName"/>
+  </property>
+  
+  <property name="branchLoc">
+  <column name="BranchLoc"/>
+  </property>
+  	  
+ </class>
+</hibernate-mapping>
+
